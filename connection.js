@@ -3,10 +3,10 @@ const mysql = require('mysql');
 // Create a connection pool to the MySQL database
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'bfxpj7wl76ghazzlr2m1-mysql.services.clever-cloud.com',
-  user: 'uvpancnsdjgep8kd',
-  password: '0k2USAy3pYfYmMp8eLQD',
-  database: 'bfxpj7wl76ghazzlr2m1'
+  host: 'bpehtwu183navbxyafcq-mysql.services.clever-cloud.com',
+  user: 'un26vhrj8smlidsg',
+  password: '0Q4kTtozkRVRABtWk9yu',
+  database: 'bpehtwu183navbxyafcq'
 });
 
 module.exports = pool;
